@@ -791,6 +791,9 @@ importers:
       '@types/prop-types':
         specifier: ^15.7.14
         version: 15.7.14
+      '@types/react-is':
+        specifier: ^18.3.0
+        version: 18.3.1
       '@types/use-sync-external-store':
         specifier: ^0.0.6
         version: 0.0.6
@@ -4257,6 +4260,9 @@ packages:
     resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
     peerDependencies:
       '@types/react': ^19.0.0
+
+  '@types/react-is@18.3.1':
+    resolution: {integrity: sha512-zts4lhQn5ia0cF/y2+3V6Riu0MAfez9/LJYavdM8TvcVl+S91A/7VWxyBT8hbRuWspmuCaiGI0F41OJYGrKhRA==}
 
   '@types/react-router-dom@5.3.3':
     resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
@@ -13384,6 +13390,10 @@ snapshots:
   '@types/react-dom@19.0.2(@types/react@19.0.1)':
     dependencies:
       '@types/react': 19.0.1
+
+  '@types/react-is@18.3.1':
+    dependencies:
+      '@types/react': 18.3.14
 
   '@types/react-router-dom@5.3.3':
     dependencies:
