@@ -766,6 +766,9 @@ importers:
       react-dom:
         specifier: ^17.0.0 || ^18.0.0 || ^19.0.0
         version: 19.0.0(react@19.0.0)
+      react-is:
+        specifier: ^19.0.0
+        version: 19.0.0
       reselect:
         specifier: ^5.1.1
         version: 5.1.1
@@ -792,8 +795,8 @@ importers:
         specifier: ^15.7.14
         version: 15.7.14
       '@types/react-is':
-        specifier: ^18.3.0
-        version: 18.3.1
+        specifier: ^19.0.0
+        version: 19.0.0
       '@types/use-sync-external-store':
         specifier: ^0.0.6
         version: 0.0.6
@@ -4261,8 +4264,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react-is@18.3.1':
-    resolution: {integrity: sha512-zts4lhQn5ia0cF/y2+3V6Riu0MAfez9/LJYavdM8TvcVl+S91A/7VWxyBT8hbRuWspmuCaiGI0F41OJYGrKhRA==}
+  '@types/react-is@19.0.0':
+    resolution: {integrity: sha512-71dSZeeJ0t3aoPyY9x6i+JNSvg5m9EF2i2OlSZI5QoJuI8Ocgor610i+4A10TQmURR+0vLwcVCEYFpXdzM1Biw==}
 
   '@types/react-router-dom@5.3.3':
     resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
@@ -13391,9 +13394,9 @@ snapshots:
     dependencies:
       '@types/react': 19.0.1
 
-  '@types/react-is@18.3.1':
+  '@types/react-is@19.0.0':
     dependencies:
-      '@types/react': 18.3.14
+      '@types/react': 19.0.1
 
   '@types/react-router-dom@5.3.3':
     dependencies:
